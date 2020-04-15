@@ -19,5 +19,5 @@ func main() {
 }
 
 func HelloServer(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "CI/CD Demo, %s!", r.URL.Path[1:])
+    fmt.Fprintf(w, "CI/CD Demo 2, %s!", r.URL.Path[1:])
 }
